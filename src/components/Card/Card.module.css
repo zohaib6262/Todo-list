@@ -1,0 +1,25 @@
+.card {
+  background-color: rgb(130, 201, 201);
+  width: 30%;
+  border-radius: 3rem;
+  text-align: center;
+  padding: 1rem;
+  margin: 0.5rem auto;
+}
+
+.btn {
+  text-align: center;
+  background-color: rgb(165, 59, 59);
+  border: 0px solid white;
+  border-radius: 0.4rem;
+  color: white;
+  margin: 0.5rem;
+}
+.clear {
+  width: 20%;
+  height: 10vh;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: rgb(181, 7, 7);
+}
