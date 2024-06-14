@@ -2,7 +2,6 @@ import React, { useContext, useState } from "react";
 import styles from "./Form.module.css";
 import { CardContext } from "../../store/card-store";
 const Form = () => {
-  console.log("Form");
   const { onAddHandle } = useContext(CardContext);
   const [name, setName] = useState("");
   const [age, setAge] = useState(0);
@@ -19,7 +18,6 @@ const Form = () => {
     if (e.target.value > 0) {
       setIsValid(true);
     }
-    console.log(e.target.value);
     setAge(+e.target.value);
   };
   const submitHandle = (e) => {
